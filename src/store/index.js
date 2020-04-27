@@ -2,10 +2,10 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 
 import app from './modules/app'
-import user from './modules/user'
+import user from './modules/admin-user'
 
 // default router permission control
-import permission from './modules/permission'
+import permission from './modules/admin-permission'
 
 // dynamic router permission control (Experimental)
 // import permission from './modules/async-router'
